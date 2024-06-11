@@ -16,6 +16,10 @@ html{
 general
  */
 
+ body{
+  background-color: #202020;
+ }
+
  .container{
     max-width: 1000px;
     margin: 0 auto ;
@@ -67,26 +71,86 @@ general
   /* 
   main
   */
+
   .first-section-main{
     background-color: #FBFBFB;
     display: flex;
     justify-content: center;
     margin: 0 auto ;
     padding: 50px;
-    border: 1px solid black;
   }
 
   .first-section-main :first-child{
     background-color:#1E90FF;
-    width: 60%;
+    width: 50%;
     border: 1px dashed black;
     min-height: 300px;
   }
 
   .first-section-main :nth-child(2){
     background-color: #FFC0CB ;
-    width: 40%;
+    width: 30%;
     border: 1px dashed black;
     min-height: 300px;
+  }
+
+  .second-section-main{
+    background-color: #D3D3D3 ;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto ;
+    padding: 50px;
+  }
+
+  .second-section-main :first-child{
+    background-color:#1E90FF;
+    width: 30%;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
+
+  .second-section-main :nth-child(2){
+    background-color: #FFC0CB ;
+    width: 50%;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
+
+  .third-section-main{
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto ;
+    padding: 50px;
+  }
+
+  .third-section-main :first-child{
+    background-color:#1E90FF;
+    width: 50%;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
+
+  .third-section-main :nth-child(2){
+    background-color: #FFC0CB ;
+    width: 30%;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
+
+  .fourth-section-main{
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto ;
+    padding: 20px;
+  
+  }
+
+  .fourth-section-main :first-child{
+    background-color:#228B22;
+    border: 1px dashed black;
+    min-height: 300px;
+    width: 75%;
   }
 
