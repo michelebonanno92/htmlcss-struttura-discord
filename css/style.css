@@ -154,3 +154,34 @@ general
     width: 75%;
   }
 
+
+  /* 
+  footer
+   */
+
+   .footer-top{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   }
+
+   .footer-top-left{
+    background-color: #F08080;
+    width: 18%;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
+
+  .footer-top-right{
+    background-color:#20B2AA ;
+    width: 55%;
+    border: 1px dashed black;
+    min-height: 300px;
+    display: flex;
+
+  }
+
+  .footer-top-right-child{
+    width: 25%;
+    border: 1px dashed white;
+  }
