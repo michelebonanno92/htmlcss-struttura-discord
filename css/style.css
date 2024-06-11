@@ -174,7 +174,7 @@ general
 
   .footer-top-right{
     background-color:#20B2AA ;
-    width: 55%;
+    width: 56%;
     border: 1px dashed black;
     min-height: 300px;
     display: flex;
@@ -184,4 +184,22 @@ general
   .footer-top-right-child{
     width: 25%;
     border: 1px dashed white;
+  }
+
+  .footer-bottom{
+    background-color: #7FFFD4;
+    max-width: 73%;
+    min-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .footer-bottom-child{
+    background-color: #FFB6C1;
+    border: 1px dashed black;
+    text-align: center;
+    line-height: 30px;
   }
