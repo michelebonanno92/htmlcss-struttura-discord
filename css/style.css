@@ -19,5 +19,74 @@ general
  .container{
     max-width: 1000px;
     margin: 0 auto ;
-    display: flex;
  }
+
+
+ /* 
+ header
+  */
+ 
+  .header-top{
+    background-color: #ADD8E6;
+    padding: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .item-20{
+    background-color: #DAA520 ;
+    border: 1px dashed black;
+    width: 20%;
+  
+  }
+
+  .item-40{
+    background-color: #DAA520 ;
+    border: 1px dashed black;
+    width: 40%;
+  }
+
+  .header-bottom{
+    background-color: #00008B ;
+    min-height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .header-bottom > div{
+    background-color: #EE82EE;
+    width: 60%;
+    
+  }
+
+  /* 
+  main
+  */
+  .first-section-main{
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto ;
+    padding: 50px;
+    border: 1px solid black;
+  }
+
+  .first-section-main :first-child{
+    background-color:#1E90FF;
+    width: 60%;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
+
+  .first-section-main :nth-child(2){
+    background-color: #FFC0CB ;
+    width: 40%;
+    border: 1px dashed black;
+    min-height: 300px;
+  }
+
